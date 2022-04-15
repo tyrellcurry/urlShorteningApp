@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Netlify]()
+- Live Site URL: [Netlify](https://url-shortening-app-tc.netlify.app/)
 
 ## The Process
 
