@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { getShortenedURL } from '../../api';
+import React, {useState, useEffect} from 'react';
+import {getShortenedURL} from '../../api';
 import SiteList from './SiteList';
 
 function SearchBar() {
@@ -59,24 +59,28 @@ function SearchBar() {
     <section className="bg-x-gray mt-50">
       <div className="pb-10 relative h-32 flex justify-center">
         <div
-          className={` ${isEmpty ? '-mt-28' : '-mt-20'
-            } search-container bg-search-mobile bg-cover bg-x-dark-violet rounded-xl absolute w-5/6  md:-mt-16 md:bg-search-bg md:w-10/12 lg:w-10/12 lg:mx-32`}
+          className={` ${
+            isEmpty ? '-mt-28' : '-mt-20'
+          } search-container bg-search-mobile bg-cover bg-x-dark-violet rounded-xl absolute w-5/6  md:-mt-16 md:bg-search-bg md:w-10/12 lg:w-10/12 lg:mx-32`}
         >
           <form
-            className={`${isEmpty ? 'mb-8 md:mb-0 md:mt-12' : 'mb-8 md:mb-10 md:mt-10'
-              } search-content w-full mt-8 flex flex-col px-6 justify-center md:flex-row`}
+            className={`${
+              isEmpty ? 'mb-8 md:mb-0 md:mt-12' : 'mb-8 md:mb-10 md:mt-10'
+            } search-content w-full mt-8 flex flex-col px-6 justify-center md:flex-row`}
           >
             <input
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
               type="text"
               placeholder="Shorten a link here..."
-              className={`${isEmpty ? 'border-4 border-red-500' : 'mb-6 md:mb-0'
-                } w-full  mr-auto p-2 text-xl rounded-md outline-x-cyan md:w-8/12 md:text-2xl md:mb-0 md:mr-4`}
+              className={`${
+                isEmpty ? 'border-4 border-red-500' : 'mb-6 md:mb-0'
+              } w-full  mr-auto p-2 text-xl rounded-md outline-x-cyan md:w-8/12 md:text-2xl md:mb-0 md:mr-4`}
             />
             <div
-              className={`${isEmpty ? 'block' : 'hidden'
-                } md:hidden error-msg ml-1 mb-6 italic text-red-500`}
+              className={`${
+                isEmpty ? 'block' : 'hidden'
+              } md:hidden error-msg ml-1 mb-6 italic text-red-500`}
             >
               <p>Please add a link</p>
             </div>
@@ -89,8 +93,9 @@ function SearchBar() {
             </button>
           </form>
           <div
-            className={`${isEmpty ? 'md:block' : 'md:hidden'
-              } error-msg md:ml-16 md:mt-2 md:mb-6 hidden md:italic md:text-red-500`}
+            className={`${
+              isEmpty ? 'md:block' : 'md:hidden'
+            } error-msg md:ml-16 md:mt-2 md:mb-6 hidden md:italic md:text-red-500`}
           >
             <p>Please add a link</p>
           </div>
