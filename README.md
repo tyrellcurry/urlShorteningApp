@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Netlify](https://url-shortening-app-tc.netlify.app/)
+- Live Site URL: <a href='https://url-shortening-app-tc.netlify.app/' target='_blank'>Netlify</a>
 
 ## The Process
 
@@ -76,13 +76,13 @@ const shortenedURL = (submittedValue) => {
 
 ### Useful resources
 
-- [Axios Getting Started](https://axios-http.com/docs/intro) - The workflow that we used on this project.
-- [Git Merging vs. Rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing) - This article was a huge help while collaborating.
+- <a href='https://axios-http.com/docs/intro' target='_blank'>Axios Getting Started</a> - This article was a huge help while collaborating.
+- <a href='https://www.atlassian.com/git/tutorials/merging-vs-rebasing' target='_blank'>Git Merging vs. Rebasing</a> - This article was a huge help while collaborating.
 
 ## Author
 
-- Author - [Tyrell Curry](https://tyrellcurry.io)
+- Author - <a href='https://tyrellcurry.io' target='_blank'>Tyrell Curry</a>
 
 ## Acknowledgments
 
-Much appreciation to [Rod Garland](https://github.com/zencoder24) for collaborating with me on this project.
+Much appreciation to <a href='https://github.com/zencoder24' target='_blank'>Rod Garland</a>for collaborating with me on this project.
