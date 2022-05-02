@@ -1,5 +1,7 @@
 # Shortly - URL Shortening API Project
 
+## Check Out The Live Project: [HERE!](https://url-shortening-app-tc.netlify.app/)
+
 ## Table Of Contents
 
 - [Overview](#overview)
